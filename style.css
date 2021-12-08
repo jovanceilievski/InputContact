@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+/* header menu */
+.header{
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px; 
+    font-weight: bold;
+    z-index: 999;
+}
+
+.header .menu a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* hero content */
+
+.hero{
+    text-align: center;
+    margin-top: 140px;
+}
+
+.hero .heroTitle h1 {
+    margin-bottom: 80px;
+}
+
+.hero .heroParagraph {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0px 30px;
+}
+
+/* Progress Bar */
+
+.progresBar {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.progresBar .container .progress {
+    height: 40px;
+}
+
+/* Step Content */
+
+.form-step{
+    width: 100%;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-step .content2{
+    padding: 0px 30px;
+    width: 100%;
+    background-color: rgb(243, 246, 248, 0.9);
+    
+    text-align: center;
+
+}
+
+.form-step .content2 .name .firstName ,
+.form-step .content2 .name .lastName ,
+.form-step .content2 .adres .streetAddress ,
+.form-step .content2 .adres .postCode ,
+.form-step .content2 .adres .Country ,
+.form-step .content2 .textArea1 .textArea2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-step .content2 .name label ,
+.form-step .content2 .adres label{
+    font-weight: bold;
+    font-size: 16px;
+} 
+
+.form-step .content2 .name ,
+.form-step .content2 .adres ,
+.form-step .content2 .textArea1 {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-step .content2 .name input{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    border-color: black;
+    border: 1px solid;
+}
+
+.form-step .content2 .adres input{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    border-color: black;
+    border: 1px solid;
+
+}
+
+.form-step .content2 .textArea1 textarea{
+
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    background: none;
+    border-color: black;
+    border: 1px solid;
+
+}
+
+.form-step .content2 .textArea1 p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-step .content2 .textArea1 .title{
+    font-weight: bold;
+}
+.form-step .content2 .textArea1 p {
+    font-size: 16px;
+}
+
+.next .check input{
+    width: 26px;
+    height: 26px;
+}
+
+.form-step .content2 .next .check{
+    display: flex;
+    align-items: center;
+}
+
+.form-step .content2 .next .button a {
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #184E77;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-step .content2 .next {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.form-step .content2 .cart3 {
+    margin: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+}
+
+.form-step .content2 .cart3 .box input{
+    width: 26px;
+    height: 26px;
+}
+
+.form-step .content2 .cart3 .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-step .content2 .cart4 .box .box2{
+    width: 150px;
+    height: 150px;
+    background: crimson;
+}
+
+.form-step .content2 .cart4 .box .box3{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+   
+}
+
+.form-step .content2 .cart4 .box .box3 input{
+    width: 26px;
+    height: 26px;
+}
+
+.form-step .content2 .cart4 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form-step .content2 .cart4{
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.form-step{
+    display: none;
+   
+}
+
+.form-step-active{
+    display: flex;;
+}
+
+.btn {
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #000000;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    box-shadow: 0 0 0 2px rgb(255, 0, 0), 0 0 0 3px var(--primary-color);
+  }
+
+
+
+
